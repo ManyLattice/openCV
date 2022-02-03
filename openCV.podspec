@@ -96,7 +96,7 @@ s.vendored_libraries = "lib/*.dylib"
 s.preserve_paths = "headers/**.h"
 s.xcconfig = {
 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/headers/**" ,
-'EXCLUDED_ARCHS' => 'x86_64'
+'EXCLUDED_ARCHS' => 'arm64'
 }
 
 # s.public_header_files = "headers/**/*.h"
